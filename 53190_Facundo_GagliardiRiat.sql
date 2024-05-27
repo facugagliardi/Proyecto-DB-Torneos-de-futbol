@@ -4,7 +4,7 @@ use torneos_proyecto;
 
 -- Descripción: es una base de datos diseñada para un sistema de gestión de torneos que administre competiciones, equipos, jugadores, resultados y otro tipo de estadísticas y datos
 
--- Tabla Equipos: almacena información sobre los equipos que participan en los eventos
+-- Tabla Equipos: almacena información sobre los equipos que participan en los torneos
 create table if not exists equipos(
 	id_equipo int auto_increment,
     nombre varchar(30) not null,
